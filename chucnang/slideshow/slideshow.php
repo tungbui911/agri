@@ -14,11 +14,11 @@
             </div>
 
             <div class="item">
-                <img src="images/ss2.png" width="1200px" height="600x" alt="Chania">
+                <img src="images/ss02.png" width="1200px" height="600x" alt="Chania">
             </div>
 
             <div class="item">
-                <img src="images/ss3.jpg" width="1200px" height="600px" alt="Flower">
+                <img src="images/ss03.jpg" width="1200px" height="600px" alt="Chania">
             </div>
         </div>
 

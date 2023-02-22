@@ -18,11 +18,17 @@
                     echo $thumnail['thumbnail'];
                 }?>"/></a>
             <h3><a href="index.php?page_layout=chitietsp&id_sp=<?php echo $row['id']; ?>"><?php echo $row['title']; ?></a></h3>
-            <p>-<?php echo $row['discount']; ?>%</p>
+            <?php
+                $price = $row['price'];
+                $discount = $row['discount'];
+                if($discount > 0){
+            ?>
+                <del><p>
+            <?php echo $row['price']; }
+                else{echo '<br>';}
+            ?></p></del>
             <p class="price">
                 <?php 
-                    $price = $row['price'];
-                    $discount = $row['discount'];
                     $newprice = $price * (100 - $discount) / 100;
                     echo $newprice; 
                 ?> VNĐ
